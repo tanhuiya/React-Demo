@@ -1,0 +1,4 @@
+
+
+export const FETCH_HOME_LIST = 'FETCH_HOME_LIST';
+export const RECEIVE_HOME_LIST = 'RECEIVE_HOME_LIST';

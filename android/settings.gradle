@@ -1,0 +1,3 @@
+rootProject.name = 'TH_BiZhi'
+
+include ':app'
