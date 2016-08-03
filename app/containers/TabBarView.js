@@ -7,10 +7,11 @@ import {
 }from 'react-native';
 
 import HomeContainer from './HomeContainer';
+import ClassContainer from './ClassContainer';
 
 const tabBarItems = [
   {title:'最新',icon : ()=><Image style={ {width:30,height:30} } source = {require('./imgs/home.png')}/> , component:HomeContainer},
-  {title:'分类',icon : ()=><Image style={ {width:30,height:30} } source = {require('./imgs/class.png')}/> , component:HomeContainer},
+  {title:'分类',icon : ()=><Image style={ {width:30,height:30} } source = {require('./imgs/class.png')}/> , component:ClassContainer},
 
 ];
 

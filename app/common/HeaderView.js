@@ -1,7 +1,7 @@
 
 import React,{Component} from 'react';
 import Commom from './common';
-import Icon from 'react-native-vector-icons/Zocial';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import {
   StyleSheet,
   View,
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     fontSize :15,
   },
   leftIcon : {
-    left : -Commom.window.width/2+40,
+    left : 20,
+    position: 'absolute',
   }
 })

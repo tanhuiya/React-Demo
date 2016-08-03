@@ -141,7 +141,7 @@ export default class Home extends React.Component{
 const styles = StyleSheet.create({
   container : {
     width : (Common.window.width)/3,
-    height : (Common.window.heigth)/2,
+    height : (Common.window.width)/2,
     justifyContent : 'center',
     alignItems : 'center',
     backgroundColor : '#f5fcff',

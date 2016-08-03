@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderView from '../common/HeaderView';
 import {
   StyleSheet,
   Text,
@@ -13,6 +14,11 @@ export default class HomeDetail extends React.Component{
     const {rowDate} = this.props;
     return (
       <View>
+        <HeaderView
+        leftIcon = {'angle-left'}
+        title = {'查看大图'}
+        leftAction = {()=>{this.props.navigator.pop()}}
+        />
         <Image
         source = {{uri:'http://img.hb.aicdn.com/'+rowDate.file.key+'_fw658'}}
         style = {styles.thumbnail}
@@ -25,6 +31,6 @@ export default class HomeDetail extends React.Component{
 const styles = StyleSheet.create({
   thumbnail : {
     width : Common.window.width,
-    height : Common.window.height,
+    height : Common.window.height-20-64,
   },
 });
